@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/", // Set to default
   plugins: [react()],
+  base: "/Tewodros-portfolio", // Set to default
 });
 
