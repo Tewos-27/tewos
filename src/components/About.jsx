@@ -8,9 +8,10 @@ import  { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 const ServiceCard = ({ index, title, icon }) => {
   return(
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="xs:w-[250px] w-full" >
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)} className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+      
       >
         <div 
          option={{
@@ -31,7 +32,7 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>
+        <p className={styles.sectionSubText} id='about'>
           Intruduction
         </p>
         
@@ -43,6 +44,7 @@ const About = () => {
       <motion.p
          variants={fadeIn(", ", 0.1, 1)}
          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+         
       >
         Hi, my name is Tewodros Shimels. I'm a skilled software developer proficient in both front-end and back-end technologies, 
         with a strong foundation in TypeScript, JavaScript and expertise in frameworks like React.js, Node.js, and Next.js.

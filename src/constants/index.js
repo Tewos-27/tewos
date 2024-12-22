@@ -166,19 +166,19 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I was impressed by Tewodros shimels's ability to turn complex ideas into a functional, user-friendly website.",
       name: "Kedir Tefera",     
       image: man_1,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "Thanks to Tewodros Shimels, our web application is now faster, more responsive, and visually appealing.",
       name: "Mekiyas Agegnehu",
       image: man_1,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "Tewodros shimels is a skilled and reliable developer who consistently delivers top-notch results.",
       name: "Selamawit Abayneh",
       image: women_2,
     },
