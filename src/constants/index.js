@@ -205,7 +205,7 @@ import {
         },
       ],
       image: pro_1,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Tewos-21/tewo-movie-site-app.git",
     },
     {
       name: "Car sales",
@@ -226,7 +226,7 @@ import {
         },
       ],
       image: pro_2,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Tewos-21/Street-car-sales-website.git",
     },
     {
       name: "Food delivery",
@@ -247,7 +247,7 @@ import {
         },
       ],
       image: pro_3,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Tewos-21/tewos-food-delivery-app.git",
     },
 
     {
@@ -266,7 +266,7 @@ import {
         
       ],
       image: pro_4,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Tewos-21/tewo-tech-web.git",
     },
 
     {
@@ -288,7 +288,7 @@ import {
         },
       ],
       image: pro_5,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Tewos-21/Dbu-Stud-Voting-System.git",
     },
 
      {
@@ -310,7 +310,7 @@ import {
         },
       ],
       image: agency,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Tewos-21/Agency-website.git",
     },
 
   ];
