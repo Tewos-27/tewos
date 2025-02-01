@@ -35,6 +35,7 @@ import pro_6 from './pro_6.png';
 import php from './php.png';
 import man_1 from './man_1.png';
 import women_2 from './women_2.jpg';
+import agency from './agency.png';
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   php,
   man_1,
   women_2,
+  agency,
 };

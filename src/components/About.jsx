@@ -46,10 +46,13 @@ const About = () => {
          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
          
       >
-        Hi, my name is Tewodros Shimels. I'm a skilled software developer proficient in both front-end and back-end technologies, 
-        with a strong foundation in TypeScript, JavaScript and expertise in frameworks like React.js, Node.js, and Next.js.
-        I'm a quick learner who thrives on collaboration, working closely with clients to deliver efficient, 
-        scalable, and user-friendly solutions that address real-world challenges. Let's work together to bring your ideas to life!
+        Hi, my name is Tewodros Shimels, and I am a passionate Full-Stack Developer with expertise in both front-end and back-end technologies. I have a strong foundation in TypeScript and JavaScript, along with proficiency in modern frameworks and libraries, including React.js, Next.js, Node.js, and Express.js.
+
+        On the front-end, I specialize in building dynamic, high-performance user interfaces using React.js, Next.js, Tailwind CSS, and Framer Motion—ensuring visually engaging and seamless user experiences. On the back-end, I develop scalable and efficient server-side applications with Node.js, Express.js, and MongoDB.
+
+        I am a quick learner who thrives in collaborative environments, working closely with clients to deliver efficient, user-friendly, and scalable solutions tailored to real-world challenges. Whether it's crafting intuitive UI/UX, optimizing API performance, or integrating complex functionalities, I am committed to building high-quality software solutions.
+
+        🚀 Let's work together to bring your ideas to life!
 
       </motion.p>
 

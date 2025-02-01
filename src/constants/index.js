@@ -28,7 +28,8 @@ import {
     php,
     threejs,
     man_1,
-    women_2
+    women_2,
+    agency
   } from "../assets";
   
   export const navLinks = [
@@ -291,16 +292,16 @@ import {
     },
 
      {
-      name: "Single Page Portfolio",
+      name: "Start Up Agency Website",
       description:
-        "A visually appealing, fully responsive single-page portfolio that offers a comprehensive overview of personal details, built with the power of Bootstrap.",
+        " a recent web development project! Developed a captivating web experience using React JS, featuring smooth animations powered by Framer Motion. This fully responsive and interactive UI offers a seamless user journey.",
       tags: [
         {
-          name: "HTML",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Framer Motion",
           color: "green-text-gradient",
         },
         {
@@ -308,7 +309,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: pro_6,
+      image: agency,
       source_code_link: "https://github.com/",
     },
 
