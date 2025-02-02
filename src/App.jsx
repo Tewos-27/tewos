@@ -16,7 +16,6 @@ const App = () => {
           <Tech />
           <Works />
           <Feedbacks />
-          <Chatbot />
           <div className="relative z-0">
               <Contact />
               
