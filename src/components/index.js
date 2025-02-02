@@ -8,6 +8,7 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Footer from './Footer';
+import Chatbot from './Chatbot';
 
 export {
   Hero,
@@ -17,6 +18,7 @@ export {
   Experience,
   Works,
   Feedbacks,
+  Chatbot,
   Contact,
   EarthCanvas, 
   BallCanvas, 
