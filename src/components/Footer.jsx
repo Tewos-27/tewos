@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Links Section */}
         <div className="flex gap-6 mb-4">
           <a
-            href="https://github.com/tewos-21"
+            href="https://github.com/Tewos-27"
             target="_blank"
             rel="noopener noreferrer"
             className="text-secondary hover:text-white transition"
