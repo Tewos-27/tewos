@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter } from 'react-router-dom';
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, StarsCanvas, Works } from './components';
 import Footer from './components/Footer';
+import Chatbot from './components/Chatbot';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
             <Hero />
           </div>
           <About />
+          <Chatbot/>
           <Experience />
           <Tech />
           <Works />
