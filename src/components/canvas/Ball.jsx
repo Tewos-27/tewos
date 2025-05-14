@@ -40,7 +40,6 @@ const BallCanvas = ({icon}) => {
    // Parent
    <Ball imgUrl={icon} />
 
-
    </Suspense>
 
    <Preload all />
