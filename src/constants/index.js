@@ -30,6 +30,8 @@ import {
     ashewa,
     books,
     OTP,
+    landing,
+    cars,
     php,
     threejs,
     man_1,
@@ -119,27 +121,27 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Freelancing",
+      title: "React.js, Next.js and Vue.js Developer",
+      company_name: "Ashewa Technology",
       icon: reactjs,
       iconBg: "#383E56",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with team",
+        "Developing and maintaining web applications using React.js Next.js and Vue.js other related technologies.",
+        "Collaborating with cross-functional teams through the use of Git and github.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "GraphQL API integration and RESTful API integration.",
       ],
     },
     {
-      title: "React vite Developer",
+      title: "Mern Stack Developer",
       company_name: "Self Project",
       icon: reactjs,
       iconBg: "#E6DEDD",
      
       points: [
-        "Developing and maintaining web applications using React.js and  Next.js.",
-        "Collaborating with cross-functional teams through the use of Git and github. ",
+        "Developing and maintaining web applications using React.js, Node.js,Express.js and MongoDB.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "implementing RESTful APIs and integrating third-party services.",
       ],
     },
     {
@@ -148,7 +150,7 @@ import {
       icon: html,
       iconBg: "#383E56",
       points: [
-        "Developing and maintaining web applications using React.js and Vue.js",
+        "Developing and maintaining web applications using React.js, Next.js, Node.js,Express.js and MongoDB.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
@@ -229,7 +231,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: pro_2,
+      image: cars,
       source_code_link: "https://github.com/Tewos-21/Street-car-sales-website.git",
     },
     {
@@ -266,6 +268,10 @@ import {
         {
           name: "Nuxt.js",
           color: "green-text-gradient",
+        },
+        {
+          name: "GraphQL API",
+          color: "pink-text-gradient",
         },
         
       ],
@@ -313,7 +319,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: agency,
+      image: landing,
       source_code_link: "https://github.com/Tewos-27/Street_startUp_web.git",
     },
     
