@@ -33,6 +33,10 @@ import pro_4 from './pro_4.png';
 import pro_5 from './pro_5.png';
 import pro_6 from './pro_6.png';
 import pro_7 from './pro_7.png';
+import foods from './foods.png';
+import ashewa from './ashewa.png';
+import books from './books.png';
+import OTP from './OTP.png';
 import php from './php.png';
 import man_1 from './man_1.png';
 import women_2 from './women_2.jpg';
@@ -71,6 +75,10 @@ export {
   pro_5,
   pro_6,
   pro_7,
+  foods,
+  ashewa,
+  books,
+  OTP,
   php,
   man_1,
   women_2,
