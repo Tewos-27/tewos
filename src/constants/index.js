@@ -134,7 +134,7 @@ import {
     },
     {
       title: "Mern Stack Developer",
-      company_name: "Self Project",
+      company_name: "Mern Stack Developer",
       icon: reactjs,
       iconBg: "#E6DEDD",
      
