@@ -25,6 +25,7 @@ import {
     pro_4,
     pro_5,
     pro_6,
+    pro_7,
     php,
     threejs,
     man_1,
@@ -49,11 +50,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
@@ -125,26 +126,25 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
+      title: "React vite Developer",
       company_name: "Self Project",
       icon: reactjs,
       iconBg: "#E6DEDD",
      
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams through the use of Git. ",
+        "Developing and maintaining web applications using React.js and  Next.js.",
+        "Collaborating with cross-functional teams through the use of Git and github. ",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "freelancing",
+      title: "Full Stack Web Developer",
+      company_name: "Ashewa Technology",
       icon: html,
       iconBg: "#383E56",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams through the use of Git.",
+        "Developing and maintaining web applications using React.js and Vue.js",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
@@ -310,8 +310,74 @@ import {
         },
       ],
       image: agency,
-      source_code_link: "https://github.com/Tewos-21/Agency-website.git",
+      source_code_link: "https://github.com/Tewos-27/Street_startUp_web.git",
     },
+    
+    {
+      name: "E-plantShopping",
+      description:
+        " Developed a plant shopping application using React and CSS, employing Redux for robust state management. Gained hands-on experience in managing complex application states effectively following best practices.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pro_7,
+      source_code_link: "https://github.com/Tewos-27/Event-Planner-Web-app.git",
+    }, 
+    
+     {
+      name: "Book-Review Backend Project",
+      description:
+        " Built the robust backend for a book review platform with Node.js and Express.js. This included designing comprehensive RESTful APIs and integrating JWT for secure user authentication.",
+      tags: [
+        {
+          name: "NodeJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ResfullAPI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pro_7,
+      source_code_link: "https://github.com/Tewos-27",
+    }, 
+
+    {
+      name: "OTP Verification with Email",
+      description:
+        " Developed an OTP verification system using Node.js, Express.js, and MongoDB. Features user registration, email-based OTP delivery, and secure login verification.",
+      tags: [
+        {
+          name: "NodeJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ResfullAPI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pro_7,
+      source_code_link: "https://github.com/Tewos-27",
+    }, 
 
   ];
   
