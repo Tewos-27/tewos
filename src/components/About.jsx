@@ -8,7 +8,7 @@ import  { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
 // Assuming you have a CV file in your public folder (e.g., public/assets/Tewodros_Shimels_CV.pdf)
-const CV_FILE_PATH = 'public/Tewodros_Shimels.pdf';
+const CV_FILE_PATH = 'Tewodros_Shimels.pdf';
 
 const ServiceCard = ({ index, title, icon }) => {
   return(
