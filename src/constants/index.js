@@ -26,6 +26,10 @@ import {
     pro_5,
     pro_6,
     pro_7,
+    foods,
+    ashewa,
+    books,
+    OTP,
     php,
     threejs,
     man_1,
@@ -208,7 +212,7 @@ import {
       source_code_link: "https://github.com/Tewos-21/tewo-movie-site-app.git",
     },
     {
-      name: "Car sales",
+      name: "Street Car Sales",
       description:
         "This comprehensive car sales website offers detailed information on various car categories across 20+ pages. It also includes a user-friendly search function and is fully responsive.",
       tags: [
@@ -242,30 +246,30 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "CSS",
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: pro_3,
+      image: foods,
       source_code_link: "https://github.com/Tewos-21/tewos-food-delivery-app.git",
     },
 
     {
-      name: "Web For tech Company",
+      name: "Ashewa.com E-commerce",
       description:
-        "This single-page website provides detailed information about a technology company, including About Us, Services, Testimonials, Projects, and Contact information.",
+        "A comprehensive e-commerce website that allows users to register, log in, and purchase products. The site features a user-friendly interface and a secure payment process. i worked on the frontend part of the project.",
       tags: [
         {
-          name: "React",
+          name: "Vue.js",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Nuxt.js",
           color: "green-text-gradient",
         },
         
       ],
-      image: pro_4,
+      image: ashewa,
       source_code_link: "https://github.com/Tewos-21/tewo-tech-web.git",
     },
 
@@ -292,7 +296,7 @@ import {
     },
 
      {
-      name: "Start Up Agency Website",
+      name: "Landing Page",
       description:
         " a recent web development project! Developed a captivating web experience using React JS, featuring smooth animations powered by Framer Motion. This fully responsive and interactive UI offers a seamless user journey.",
       tags: [
@@ -353,14 +357,14 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: pro_7,
+      image: books,
       source_code_link: "https://github.com/Tewos-27",
     }, 
 
     {
       name: "OTP Verification with Email",
       description:
-        " Developed an OTP verification system using Node.js, Express.js, and MongoDB. Features user registration, email-based OTP delivery, and secure login verification.",
+        "Developed an OTP verification system using Node.js, Express.js, and MongoDB. Features user registration, email-based OTP delivery, and secure login verification. i worked on the backend part of the project.",
       tags: [
         {
           name: "NodeJS",
@@ -375,7 +379,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: pro_7,
+      image: OTP,
       source_code_link: "https://github.com/Tewos-27",
     }, 
 
