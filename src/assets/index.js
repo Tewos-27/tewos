@@ -32,6 +32,7 @@ import pro_3 from './pro_3.png';
 import pro_4 from './pro_4.png';
 import pro_5 from './pro_5.png';
 import pro_6 from './pro_6.png';
+import pro_7 from './pro_7.png';
 import php from './php.png';
 import man_1 from './man_1.png';
 import women_2 from './women_2.jpg';
@@ -69,6 +70,7 @@ export {
   pro_4,
   pro_5,
   pro_6,
+  pro_7,
   php,
   man_1,
   women_2,
