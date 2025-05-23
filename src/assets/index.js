@@ -37,6 +37,8 @@ import foods from './foods.png';
 import ashewa from './ashewa.png';
 import books from './books.png';
 import OTP from './OTP.png';
+import landing from './landing.png';
+import cars from './cars.png';
 import php from './php.png';
 import man_1 from './man_1.png';
 import women_2 from './women_2.jpg';
@@ -79,6 +81,8 @@ export {
   ashewa,
   books,
   OTP,
+  landing,
+  cars,
   php,
   man_1,
   women_2,
