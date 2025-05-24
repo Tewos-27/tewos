@@ -9,7 +9,7 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const CV_FILE_PATH = '/assets/Tewodros_Shimels_CV.pdf';
+const CV_FILE_PATH = 'Tewodros_Shimels.pdf';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -39,7 +39,7 @@ const About = () => {
     try {
       const link = document.createElement('a');
       link.href = CV_FILE_PATH;
-      link.download = 'Tewodros_Shimels_CV.pdf';
+      link.download = 'Tewodros_Shimels.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
