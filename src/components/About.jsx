@@ -1,44 +1,74 @@
-import React, { Component } from 'react'
+import React from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-import {styles} from '../styles';
+import { styles } from '../styles';
 import { services } from '../constants';
-import  { fadeIn, textVariant } from '../utils/motion';
+import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-// Assuming you have a CV file in your public folder (e.g., public/assets/Tewodros_Shimels_CV.pdf)
-const CV_FILE_PATH = 'Tewodros_Shimels.pdf';
+const CV_FILE_PATH = '/assets/Tewodros_Shimels_CV.pdf';
 
 const ServiceCard = ({ index, title, icon }) => {
-  return(
-    <Tilt className="xs:w-[250px] w-full" >
+  return (
+    <Tilt className="xs:w-[250px] w-full">
       <motion.div
-        variants={fadeIn("right", "spring", 0.5 * index, 0.75)} className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+        className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
-        <div 
-         option={{
-          max: 45, scale: 1, speed: 450
-         }}
-         className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
-        > 
-          <img src={icon} alt={title} className="w-16 h-16 object-contain"/>
-          <h3 className="text-white text-[20px] font-bold text-center">  {title} </h3>
+        <div
+          option={{
+            max: 45,
+            scale: 1,
+            speed: 450
+          }}
+          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+        >
+          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
         </div>
       </motion.div>
     </Tilt>
-  )
-}
+  );
+};
 
 const About = () => {
   const handleDownloadCV = () => {
-    // Create an anchor element to trigger the download
-    const link = document.createElement('a');
-    link.href = CV_FILE_PATH;
-    link.download = 'Tewodros Shimels-Resume.pdf'; // The filename for the downloaded file
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    try {
+      const link = document.createElement('a');
+      link.href = CV_FILE_PATH;
+      link.download = 'Tewodros_Shimels_CV.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      // Show success toast
+      toast.success('CV downloaded successfully!', {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
+    } catch (error) {
+      // Show error toast if download fails
+      toast.error('Failed to download CV. Please try again.', {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
+      console.error('Download error:', error);
+    }
   };
 
   return (
@@ -47,15 +77,14 @@ const About = () => {
         <p className={styles.sectionSubText} id='about'>
           Introduction
         </p>
-        
         <h2 className={styles.sectionHeadText}>
           Overview.
         </h2>
       </motion.div>
 
       <motion.p
-         variants={fadeIn(", ", 0.1, 1)}
-         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        variants={fadeIn(", ", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         Hi, my name is Tewodros Shimels, and I am a passionate Full-Stack Developer with expertise in both front-end and back-end technologies. I have a strong foundation in TypeScript and JavaScript, along with proficiency in modern frameworks and libraries, including React.js, Next.js, Node.js, and Express.js.
 
@@ -66,14 +95,13 @@ const About = () => {
         🚀 Let's work together to bring your ideas to life!
       </motion.p>
 
-      {/* CV Download Button */}
       <motion.div
         variants={fadeIn("", "", 0.2, 1)}
         className="mt-6"
       >
         <button
           onClick={handleDownloadCV}
-          className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+          className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl hover:bg-[#2a2a72] transition-colors duration-300"
         >
           Download CV
         </button>
@@ -81,11 +109,11 @@ const About = () => {
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service}/>
+          <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(About, "about")
+export default SectionWrapper(About, "about");
