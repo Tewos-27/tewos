@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
-import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import { styles } from '../styles';
@@ -45,7 +45,7 @@ const About = () => {
       document.body.removeChild(link);
       
       // Show success toast
-      toast.success('CV downloaded successfully!', {
+      toast.success('CV download started!', {
         position: "top-right",
         autoClose: 3000,
         hideProgressBar: false,
@@ -53,7 +53,7 @@ const About = () => {
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-        theme: "dark",
+        theme: "light",
       });
     } catch (error) {
       // Show error toast if download fails
@@ -65,7 +65,7 @@ const About = () => {
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-        theme: "dark",
+        theme: "light",
       });
       console.error('Download error:', error);
     }
@@ -73,6 +73,20 @@ const About = () => {
 
   return (
     <>
+      {/* Add ToastContainer at the root of your component */}
+      <ToastContainer 
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
+
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText} id='about'>
           Introduction
