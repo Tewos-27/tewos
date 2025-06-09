@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/tewo-portfolio/(.*)", "destination": "/tewo-portfolio/" }
-  ]
-}
