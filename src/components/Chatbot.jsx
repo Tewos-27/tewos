@@ -5,6 +5,7 @@ const Chatbot = () => {
     // Check if the script is already added
     if (!document.getElementById("chatbase-script")) {
       const script = document.createElement("script");
+      // Set the source to the Chatbase embed script
       script.src = "https://www.chatbase.co/embed.min.js";
       script.id = "chatbase-script"; // Ensure script is not duplicated
       script.async = true;
