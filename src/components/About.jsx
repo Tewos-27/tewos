@@ -73,7 +73,6 @@ const About = () => {
 
   return (
     <>
-      {/* Add ToastContainer at the root of your component */}
       <ToastContainer 
         position="top-right"
         autoClose={3000}
@@ -86,7 +85,6 @@ const About = () => {
         pauseOnHover
         theme="light"
       />
-
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText} id='about'>
           Introduction
@@ -95,7 +93,6 @@ const About = () => {
           Overview.
         </h2>
       </motion.div>
-
       <motion.p
         variants={fadeIn(", ", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
@@ -108,7 +105,6 @@ const About = () => {
 
         🚀 Let's work together to bring your ideas to life!
       </motion.p>
-
       <motion.div
         variants={fadeIn("", "", 0.2, 1)}
         className="mt-6"
@@ -120,7 +116,6 @@ const About = () => {
           Download CV
         </button>
       </motion.div>
-
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
@@ -129,5 +124,4 @@ const About = () => {
     </>
   );
 };
-
 export default SectionWrapper(About, "about");
