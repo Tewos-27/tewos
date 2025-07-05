@@ -169,7 +169,6 @@ import {
       ],
     },
   ];
-  
   const testimonials = [
     {
       testimonial:
@@ -278,7 +277,6 @@ import {
       image: ashewa,
       source_code_link: "https://github.com/Tewos-21/tewo-tech-web.git",
     },
-
     {
       name: "Voting System",
       description:
@@ -300,7 +298,6 @@ import {
       image: pro_5,
       source_code_link: "https://github.com/Tewos-21/Dbu-Stud-Voting-System.git",
     },
-
      {
       name: "Landing Page",
       description:
@@ -390,5 +387,4 @@ import {
     }, 
 
   ];
-  
   export { services, technologies, experiences, testimonials, projects };
