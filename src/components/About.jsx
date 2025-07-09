@@ -44,9 +44,8 @@ const About = () => {
       link.click();
       document.body.removeChild(link);
       
-      // Show success toast
       toast.success('CV download started!', {
-        position: "top-right",
+        position: "bottom-right", // Changed from top-right to bottom-right
         autoClose: 3000,
         hideProgressBar: false,
         closeOnClick: true,
@@ -56,9 +55,8 @@ const About = () => {
         theme: "light",
       });
     } catch (error) {
-      // Show error toast if download fails
       toast.error('Failed to download CV. Please try again.', {
-        position: "top-right",
+        position: "bottom-right", // Changed from top-right to bottom-right
         autoClose: 3000,
         hideProgressBar: false,
         closeOnClick: true,
@@ -74,7 +72,7 @@ const About = () => {
   return (
     <>
       <ToastContainer 
-        position="top-right"
+        position="bottom-right" // Changed from top-right to bottom-right
         autoClose={3000}
         hideProgressBar={false}
         newestOnTop={false}
