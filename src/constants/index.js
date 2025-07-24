@@ -343,7 +343,7 @@ import {
     }, 
     
      {
-      name: "Book-Review Backend Project",
+      name: "Book-Review platform",
       description:
         " Built the robust backend for a book review platform with Node.js and Express.js. This included designing comprehensive RESTful APIs and integrating JWT for secure user authentication.",
       tags: [
