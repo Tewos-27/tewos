@@ -43,6 +43,9 @@ import php from './php.png';
 import man_1 from './man_1.png';
 import women_2 from './women_2.jpg';
 import agency from './agency.png';
+import dashen from './dashen-superapp.jpeg';
+import bingo from './tewo-bingo.png';
+import inhouse from './in-house.png';
 
 export {
   logo,
@@ -87,4 +90,7 @@ export {
   man_1,
   women_2,
   agency,
+  dashen,
+  bingo,
+  inhouse,
 };
