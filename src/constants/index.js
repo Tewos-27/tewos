@@ -36,7 +36,11 @@ import {
     threejs,
     man_1,
     women_2,
-    agency
+    agency,
+    dashen,
+    bingo,
+    inhouse
+
   } from "../assets";
   
   export const navLinks = [
@@ -117,9 +121,23 @@ import {
       name: "docker",
       icon: docker,
     },
+    
   ];
   
   const experiences = [
+    {
+      title: "Backend Developer",
+      company_name: "EagleLions Technology",
+      icon: reactjs,
+      iconBg: "#383E56",
+      points: [
+        "Developed and maintained a Dashen superapp platform using microservices and monorepo architecture.",
+        "Implemented airtime top-ups for Ethio Telecom and Safaricom",
+        "Integrated banking and payment services (Dashen Bank, M-Pesa, Telebirr)",
+        "Developed messaging and transaction processing systems",
+        "Implemented Role based authentication and user management",
+      ],
+    },
     {
       title: "React.js, Next.js and Vue.js Developer",
       company_name: "Ashewa Technology",
@@ -142,17 +160,6 @@ import {
         "Developing and maintaining web applications using React.js, Node.js,Express.js and MongoDB.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "implementing RESTful APIs and integrating third-party services.",
-      ],
-    },
-    {
-      title: "Full Stack Web Developer",
-      company_name: "Ashewa Technology",
-      icon: html,
-      iconBg: "#383E56",
-      points: [
-        "Developing and maintaining web applications using React.js, Next.js, Node.js,Express.js and MongoDB.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
@@ -192,6 +199,59 @@ import {
   
   const projects = [
     {
+      name: "Dashen Superapp",
+      description:
+        "Developed and maintained a Dashen superapp platform using microservices and monorepo architecture.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Nx Monorepo",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Redis and kafka",
+          color: "purple-text-gradient",
+        }
+      ],
+      image: dashen,
+      source_code_link: "",
+    },
+    {
+      name: "Bingo Game",
+      description:
+        "Developed a bingo game with advance admine dashboard using Next.js, Tailwind  and Nodejs, Redis, PostgresSql with prisma ORM. Features Shopes registration, login, track game reports each shop and game play. i worked on the Full stack part of the project.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Nodejs and express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Redis",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bingo,
+    },
+    {
       name: "Movie Site",
       description:
         "This project aims to develop a user-friendly movie site application that allows users to search for movies and retrieve detailed information about them. The app will leverage an API to fetch movie data. ",
@@ -208,27 +268,39 @@ import {
           name: "CSS",
           color: "pink-text-gradient",
         },
+        {
+          name: "Nodejs and Express",
+          color: "yellow-text-gradient",
+        }
       ],
       image: pro_1,
-      source_code_link: "https://github.com/Tewos-21/tewo-movie-site-app.git",
     },
     {
       name: "Street Car Sales",
       description:
-        "This comprehensive car sales website offers detailed information on various car categories across 20+ pages. It also includes a user-friendly search function and is fully responsive.",
+        "This comprehensive car sales web app offers detailed information on various car categories across 20+ pages. It also includes a user-friendly search function and is fully responsive.",
       tags: [
         {
-          name: "Javascript",
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "Html",
+          name: "Nodejs",
           color: "pink-text-gradient",
         },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Redis",
+          color: "yellow-text-gradient",
+        }
+        
       ],
       image: cars,
       source_code_link: "https://github.com/Tewos-21/Street-car-sales-website.git",
@@ -250,6 +322,14 @@ import {
           name: "MongoDB",
           color: "pink-text-gradient",
         },
+        {
+          name: "Redis",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "webhook",
+          color: "purple-text-gradient",
+        }
       ],
       image: foods,
       source_code_link: "https://github.com/Tewos-21/tewos-food-delivery-app.git",
@@ -276,6 +356,22 @@ import {
       ],
       image: ashewa,
       source_code_link: "https://github.com/Tewos-21/tewo-tech-web.git",
+    },
+    {
+      name: "Inhouse Management Dashboard",
+      description:
+        "A comprehensive inhouse management system that allows users to register, log in, and manage inhouse activities. The system features a user-friendly interface and a Track orders both Custom and Guest orders. i worked on the frontend part of the project.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+      ],
+      image: inhouse,
     },
     {
       name: "Voting System",
@@ -323,7 +419,7 @@ import {
     {
       name: "E-plantShopping",
       description:
-        " Developed a plant shopping application using React and CSS, employing Redux for robust state management. Gained hands-on experience in managing complex application states effectively following best practices.",
+        " Developed a plant shopping application using React and Nodejs, employing Redux for robust state management. Gained hands-on experience in managing complex application states effectively following best practices.",
       tags: [
         {
           name: "React",
@@ -334,9 +430,13 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Nodejs and express",
           color: "pink-text-gradient",
         },
+        {
+          name: "MongoDB",
+          color: "yellow-text-gradient",
+        }
       ],
       image: pro_7,
       source_code_link: "https://github.com/Tewos-27/Event-Planner-Web-app.git",
@@ -365,9 +465,9 @@ import {
     }, 
 
     {
-      name: "OTP Verification with Email",
+      name: "OTP Verification with both email and phone number",
       description:
-        "Developed an OTP verification system using Node.js, Express.js, and MongoDB. Features user registration, email-based OTP delivery, and secure login verification. i worked on the backend part of the project.",
+        "Developed an OTP verification system using Node.js, Express.js, Redis and MongoDB. Features user registration, email-based OTP delivery, and secure login verification. i worked on the backend part of the project.",
       tags: [
         {
           name: "NodeJS",
