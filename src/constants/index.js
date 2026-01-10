@@ -132,7 +132,6 @@ import {
       iconBg: "#383E56",
       points: [
         "Developed and maintained a Dashen superapp platform using microservices and monorepo architecture.",
-        "Implemented airtime top-ups for Ethio Telecom and Safaricom",
         "Integrated banking and payment services (Dashen Bank, M-Pesa, Telebirr)",
         "Developed messaging and transaction processing systems",
         "Implemented Role based authentication and user management",
