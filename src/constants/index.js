@@ -39,7 +39,9 @@ import {
     agency,
     dashen,
     bingo,
-    inhouse
+    inhouse,
+    manufucturing,
+    hagerigna
 
   } from "../assets";
   
@@ -249,29 +251,30 @@ import {
       ],
       image: bingo,
     },
+
     {
-      name: "Movie Site",
+      name: "Hagerigna Saving System",
       description:
-        "This project aims to develop a user-friendly movie site application that allows users to search for movies and retrieve detailed information about them. The app will leverage an API to fetch movie data. ",
+        "The traditional Ethiopian saving system, known as Ekub, is a community-based method where members contribute a set amount of money regularly.",
       tags: [
         {
-          name: "react ",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "API",
+          name: "Nodejs and express",
           color: "green-text-gradient",
         },
         {
-          name: "CSS",
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
         {
-          name: "Nodejs and Express",
-          color: "yellow-text-gradient",
-        }
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
       ],
-      image: pro_1,
+      image: hagerigna,
     },
     {
       name: "Street Car Sales",
@@ -392,6 +395,22 @@ import {
       image: pro_5,
       source_code_link: "https://github.com/Tewos-21/Dbu-Stud-Voting-System.git",
     },
+    {
+      name: "Manufucturing Management Dashboard",
+      description:
+        "A comprehensive manufacturing websites that have above 100 pages, and  allows users to register, log in, and upload view the products and services. The system features a user-friendly interface and allows to post products and services from admin dashboard. i developed full stack part of the project.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+      ],
+      image: manufucturing,
+    },
      {
       name: "Landing Page",
       description:
@@ -413,7 +432,7 @@ import {
       image: landing,
       source_code_link: "https://github.com/Tewos-27/Street_startUp_web.git",
     },
-    
+   
     {
       name: "E-plantShopping",
       description:
@@ -483,6 +502,31 @@ import {
       image: OTP,
       source_code_link: "https://github.com/Tewos-27",
     }, 
+
+    {
+      name: "Movie Site",
+      description:
+        "This project aims to develop a user-friendly movie site application that allows users to search for movies and retrieve detailed information about them. The app will leverage an API to fetch movie data. ",
+      tags: [
+        {
+          name: "react ",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Nodejs and Express",
+          color: "yellow-text-gradient",
+        }
+      ],
+      image: pro_1,
+    },
 
   ];
   export { services, technologies, experiences, testimonials, projects };
