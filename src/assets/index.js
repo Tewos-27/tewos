@@ -46,7 +46,8 @@ import agency from './agency.png';
 import dashen from './dashen-superapp.jpeg';
 import bingo from './tewo-bingo.png';
 import inhouse from './in-house.png';
-
+import manufucturing from './manufucturing.png';
+import hagerigna from './hagerigna.png';
 export {
   logo,
   backend,
@@ -93,4 +94,6 @@ export {
   dashen,
   bingo,
   inhouse,
+  manufucturing,
+  hagerigna
 };
