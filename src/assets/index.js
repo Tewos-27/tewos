@@ -48,6 +48,7 @@ import bingo from './tewo-bingo.png';
 import inhouse from './in-house.png';
 import manufucturing from './manufucturing.png';
 import hagerigna from './hagerigna.png';
+import wagaye from './wagaye.png';
 export {
   logo,
   backend,
@@ -95,5 +96,6 @@ export {
   bingo,
   inhouse,
   manufucturing,
-  hagerigna
+  hagerigna,
+  wagaye,
 };

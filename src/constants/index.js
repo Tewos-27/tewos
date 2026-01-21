@@ -41,7 +41,8 @@ import {
     bingo,
     inhouse,
     manufucturing,
-    hagerigna
+    hagerigna,
+    wagaye,
 
   } from "../assets";
   
@@ -411,6 +412,36 @@ import {
       ],
       image: manufucturing,
     },
+    {
+      name: "Wagaye.com E-commerce",
+      description:
+        "wagaye.com is the online shopping hub of the Wagaye platform, part of the Ashewa digital ecosystem. It offers a modern and convenient e-commerce experience that lets users browse, discover, and purchase a wide range of products directly from trusted sellers and local vendors.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Nodejs and express",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Redis",
+          color: "purple-text-gradient",
+        }
+      ],
+      image: wagaye,
+    },
+
+
      {
       name: "Landing Page",
       description:
