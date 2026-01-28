@@ -409,6 +409,15 @@ const projects = [
         name: "Tailwind",
         color: "green-text-gradient",
       },
+      {
+        name: "Nodejs and express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "yellow-text-gradient",
+      },
+
     ],
     image: manufucturing,
   },
