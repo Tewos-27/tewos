@@ -135,7 +135,7 @@ const experiences = [
     iconBg: "#383E56",
     points: [
       "Developed and maintained a Dashen superapp platform using microservices and monorepo architecture.",
-      "Integrated banking and payment services (Dashen Bank, M-Pesa, Telebirr)",
+      "Integrated banking and payment services",
       "Implemented Role based authentication and user management",
     ],
   },
