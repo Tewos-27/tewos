@@ -9,7 +9,7 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const CV_FILE_PATH = 'Tewodros Shimels.pdf';
+// const CV_FILE_PATH = 'Tewodros Shimels.pdf';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -35,43 +35,43 @@ const ServiceCard = ({ index, title, icon }) => {
 };
 
 const About = () => {
-  const handleDownloadCV = () => {
-    try {
-      const link = document.createElement('a');
-      link.href = CV_FILE_PATH;
-      link.download = 'Tewodros Shimels.pdf';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      
-      toast.success('CV download started!', {
-        position: "bottom-right", // Changed from top-right to bottom-right
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-      });
-    } catch (error) {
-      toast.error('Failed to download CV. Please try again.', {
-        position: "bottom-right", // Changed from top-right to bottom-right
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-      });
-      console.error('Download error:', error);
-    }
-  };
+  // const handleDownloadCV = () => {
+  //   try {
+  //     const link = document.createElement('a');
+  //     link.href = CV_FILE_PATH;
+  //     link.download = 'Tewodros Shimels.pdf';
+  //     document.body.appendChild(link);
+  //     link.click();
+  //     document.body.removeChild(link);
+
+  //     toast.success('CV download started!', {
+  //       position: "bottom-right", // Changed from top-right to bottom-right
+  //       autoClose: 3000,
+  //       hideProgressBar: false,
+  //       closeOnClick: true,
+  //       pauseOnHover: true,
+  //       draggable: true,
+  //       progress: undefined,
+  //       theme: "light",
+  //     });
+  //   } catch (error) {
+  //     toast.error('Failed to download CV. Please try again.', {
+  //       position: "bottom-right", // Changed from top-right to bottom-right
+  //       autoClose: 3000,
+  //       hideProgressBar: false,
+  //       closeOnClick: true,
+  //       pauseOnHover: true,
+  //       draggable: true,
+  //       progress: undefined,
+  //       theme: "light",
+  //     });
+  //     console.error('Download error:', error);
+  //   }
+  // };
 
   return (
     <>
-      <ToastContainer 
+      <ToastContainer
         position="bottom-right" // Changed from top-right to bottom-right
         autoClose={3000}
         hideProgressBar={false}
