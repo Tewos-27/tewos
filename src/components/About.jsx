@@ -108,7 +108,7 @@ const About = () => {
         className="mt-6"
       >
         <button
-          onClick={handleDownloadCV}
+          // onClick={handleDownloadCV}
           className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl hover:bg-[#2a2a72] transition-colors duration-300"
         >
           Download CV
